@@ -1,0 +1,42 @@
+<div class="registration">
+  <div class="alert-danger" *ngIf="error">
+    <p>{{ error }}</p>
+  </div>
+  <form #authForm="ngForm" (ngSubmit)="onSubmit(authForm)">
+    <div class="form-group">
+      <label for="email">E-mail:</label>
+      <input
+        type="email"
+        id="email"
+        class="form-control"
+        ngModel
+        name="email"
+        placeholder="Email"
+        required
+        email
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        class="form-control"
+        ngModel
+        name="password"
+        placeholder="Password"
+        required
+        minlength="6"
+      />
+    </div>
+    <div class="btns">
+      <button class="signup" type="submit" [disabled]="!authForm.valid">
+        {{ isLoginMode ? "Login" : "Sign Up" }}
+      </button>
+      <button class="switch" (click)="onSwitchMode()" type="button">
+        Switch to {{ isLoginMode ? "Sign Up" : "Login" }}
+      </button>
+    </div>
+  </form>
+</div>

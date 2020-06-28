@@ -1,0 +1,86 @@
+* {
+  color: #484c3d;
+  font-family: "Roboto", sans-serif;
+}
+
+.essential {
+
+  font-weight: 900;
+}
+
+.description {
+  font-size: 1em;
+  font-weight: 200;
+  width: 50vw;
+  color: #484c3d;
+  text-align: justify;
+
+}
+
+.img-responsive {
+  max-height: 300px;
+  margin-bottom: 10px;
+}
+
+.picture:hover {
+  cursor: pointer;
+  zoom: 1.5;
+}
+
+.manage {
+  display: flex;
+  font-size: 0.8em;
+  font-family: 'Roboto', sans-serif;
+  align-self: center;
+
+
+}
+
+#dropdownManual:hover {
+  color: #95513c;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+#menu {
+
+  opacity: 0.9;
+
+}
+
+#menu a {
+  margin-top: 10px;
+}
+
+#menu button {
+  margin: 15px;
+}
+
+#menu a:hover {
+  text-decoration: none;
+  zoom: 1.1;
+  color: #95513c;
+}
+
+.manage img {
+  height: 20px;
+  padding-right: 13px;
+}
+
+.edit a img {
+  height: 40px;
+  position: relative;
+  bottom: 9px;
+  padding-right: 4px;
+
+}
+
+.manage img:hover {
+  cursor: pointer;
+  zoom: 1.2;
+}
+
+h5,
+h6 {
+  color: #8d6154;
+}

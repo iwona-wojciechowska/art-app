@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #8d6154;
+  font-family: 'Roboto', sans-serif;
+  color: #34372c;
+}
+
+.info {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

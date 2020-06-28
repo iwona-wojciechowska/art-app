@@ -1,0 +1,37 @@
+.search {
+  display: flex;
+  flex-direction: row;
+}
+
+#search-input {
+  width: 20vw;
+  height: 4vh;
+  border-bottom: 1px solid #95513c;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.6em;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+}
+
+#search-input:hover {
+  border: 2px solid #95513c;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+}
+
+#search-button {
+  height: 4vh;
+  width: 8vw;
+  background-color: #fff;
+  font-weight: 300;
+  font-size: 0.6em;
+  color: #8d6154;
+  border-style: hidden;
+}
+
+#search-button:hover {
+  color: #95513c;
+  font-weight: 500;
+}

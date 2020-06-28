@@ -1,0 +1,19 @@
+.collection {
+  display: flex;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: 100wv;
+}
+
+.list {
+  width: 30vw;
+  margin-left: 5vw;
+  flex-grow: 0;
+}
+
+.detail {
+  width: 55vw;
+  flex-grow: 0;
+  margin-right: 5vw;
+  margin-left: 5vw;
+}

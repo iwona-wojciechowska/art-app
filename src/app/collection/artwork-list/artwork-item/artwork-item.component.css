@@ -1,0 +1,27 @@
+.group {
+  cursor: pointer;
+  color: #484c3d;
+  font-family: "Roboto", sans-serif;
+  height: 50vh;
+  padding-top: 2vw;
+  border-top: 1px solid #95513c;
+  border-bottom: 1px solid #95513c;
+}
+
+.group:hover {
+  border: 1px solid #95513c;
+}
+
+.group:focus {
+  background-color: #f5efee;
+  border: 1px solid #95513c;
+}
+
+h4 {
+  font-size: 2em;
+}
+
+.picture {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}

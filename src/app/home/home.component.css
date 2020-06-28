@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: opx;
+}
+
+.section {
+  height: 80vh;
+  width: 100vw;
+}
+
+.header {
+  display: flex;
+  height: 10vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  padding-top: 10px;
+  font-size: 2.5em;
+  font-family: 'Nothing You Could Do', cursive;
+  color: #34372c;
+}
+
+.types {
+  width: 100vw;
+  display: flex;
+}
+
+.types div {
+  height: 70vh;
+  width: 25vw;
+  display: flex;
+}
+
+img {
+  height: 70vh;
+  width: 25vw;
+  object-fit: cover;
+  opacity: 0.6;
+  z-index: 0;
+}
+
+img:hover {
+  opacity: 1.0;
+  object-fit: cover;
+  zoom: 1.1;
+  z-index: 1;
+}

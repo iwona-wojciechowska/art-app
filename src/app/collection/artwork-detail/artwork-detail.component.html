@@ -1,0 +1,53 @@
+<div class="row">
+  <div class="col-xs-12, picture">
+    <img [src]="artwork.image" alt="{{ artwork.name }}" class="img-responsive">
+  </div>
+</div>
+
+<div class="essential">
+  <div class="row">
+    <div class="col-xs-12">
+      <h5>{{ artwork.name }}</h5>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h5>{{ artwork.author }}</h5>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h5>{{ artwork.date }}</h5>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h6>{{ artwork.style }}</h6>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h6>{{ artwork.medium }} </h6>
+    </div>
+  </div>
+
+  <div class="row, description">
+    <div class="col-xs-12">
+      <p>{{ artwork.description }}<p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12, manage">
+      <div class="edit"><a (click)="onEditArtwork()"><img src="../../assets/edit.jpg"></a>
+      </div>
+      <div class="delete"><a (click)="onDeleteArtwork()"><img src="../../assets/delete.jpg"></a>
+      </div>
+      <div class="favourite"><a (click)="addToFav()"><img src="../../assets/fav.jpg"></a>
+      </div>
+    </div>
+  </div>

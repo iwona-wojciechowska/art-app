@@ -1,0 +1,55 @@
+.myform {
+  display: flex;
+  color: #423a34;
+  font-family: "Roboto", sans-serif;
+  align-self: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-weight: 300;
+}
+
+.form-group {
+  width: 50vw;
+}
+
+.form-group input,
+textarea {
+  background-color: #f5efee;
+}
+
+.form-group input:hover,
+textarea:hover {
+  border: 1px solid #8d6154;
+}
+
+button {
+  border: 1px solid #8d6154;
+  color: #8d6154;
+}
+
+button:hover {
+  background-color: #95513c;
+  color: #34372c;
+  cursor: pointer;
+}
+
+.save[disabled] {
+  opacity: 0.7;
+}
+
+.save[disabled]:hover {
+  border: 1px solid #8d6154;
+  color: #8d6154;
+  background-color: #fff;
+  opacity: 0.7;
+  cursor: auto;
+}
+
+.cancel {
+  margin-left: 5px;
+}
+
+img {
+  max-height: 40vh;
+}

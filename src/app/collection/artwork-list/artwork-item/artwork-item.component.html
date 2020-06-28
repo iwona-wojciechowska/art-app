@@ -1,0 +1,12 @@
+<div [routerLink]="[artwork.$key]" routerLinkActive="active" class="group">
+  <div class="left">
+
+    <h5 class="list-group-item-heading">{{ artwork.name }}</h5>
+    <p class="list-group-item-text">{{ artwork.author }}</p>
+    <p class="list-group-item-text">{{ artwork.date }}</p>
+
+  </div>
+  <div class="picture">
+    <img [src]="artwork.image" alt="{{ artwork.name }}" class="img-responsive" style="max-height: 100px;">
+  </div>
+</div>
